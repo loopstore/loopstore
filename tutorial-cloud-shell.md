@@ -40,24 +40,31 @@ You're running Node.js in a unix environment. In the tutorial **Reference Sectio
 
 ### Instructions
 
-#### Install the  [LoopBack 4](https://v4.loopback.io/) CLI  [npm package](https://www.npmjs.com/package/@loopback/cli)
+#### Check your node version
+
+    Node -v
+
+LoopBack 4 currently requires Node.js **version 8.9.0 or above**.
+
+#### Install the LoopBack 4 CLI
 
     npm i -g @loopback/cli
 
 #### Start the app generator using the "lb4 app" command
+
 [see all CLI options](https://github.com/strongloop/loopback-next/blob/master/packages/cli/README.md)
 
     lb4 app
 
-#### For "Project name" enter "loopstore"
+For "Project name" enter "loopstore"
 
     loopstore
 
-#### For Project description enter "Building a store with LoopBack 4"
+For Project description enter "Building a store with LoopBack 4"
 
     Building a store with LoopBack 4
 
-#### For "Project root directory" enter "loopstore"
+For "Project root directory" enter "loopstore"
 
     loopstore
 
@@ -72,17 +79,17 @@ This is the name of the directory which will be created below your current worki
 
 You can't enter a path here: see  [this Issue](https://github.com/strongloop/loopback-next/issues/2092).
 
-#### For "Application class name" enter "LoopstoreApplication"
+For "Application class name" enter "LoopstoreApplication"
 
     LoopstoreApplication
 
-#### Leave all the features enabled
+**Leave all the features enabled!**
 
 <aside class="special">
 
 **Going deeper 🤓**
 
-Here's what we enabling: tslint, prettier, Eable mocha, loopbackBuild, vscode, repositories, services.
+Here's what we enabling: tslint, prettier, mocha, loopbackBuild, vscode, repositories, services.
 
 We'll be looking into what these all mean later in the tutorial.
 </aside>
@@ -93,12 +100,9 @@ We'll be looking into what these all mean later in the tutorial.
 
 After a few seconds, the code for the LoopStore app should be generated in in a subfolder called loopstore.
 
-#### Change into the app code directory using "cd loopstore"
+#### Change into the app code directory and start the app
 
     cd loopstore
-
-#### Build a run the LoopStore app using "npm start"
-
     npm start
 
 NPM will run the build scripts in the <walkthrough-editor-open-file  filePath="test-cloudshell-tutorial/loopstore/package.json" text="">package.json</walkthrough-editor-open-file> file
