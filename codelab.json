@@ -1,0 +1,26 @@
+{
+  "environment": "gcs",
+  "source": "1JFuG_LgXHcF8Rx-RfBG_NE1YJ5G8wWPV8Zs6ZFZBnik",
+  "format": "md",
+  "prefix": "../../",
+  "mainga": "UA-49880327-14",
+  "updated": "2018-11-28T23:36:15Z",
+  "id": "tutorial-cloud-shell.md",
+  "duration": 13,
+  "title": "Build A LoopStore using Google Cloud Shell",
+  "author": "LoopStore",
+  "summary": "This is a version of the LoopStore - Building a store with LoopBack 4 tutorial from https://github.com/loopstore/loopstore",
+  "theme": "loopback",
+  "status": [
+    "draft"
+  ],
+  "category": [
+    "LoopBack",
+    "Google Cloud Shell"
+  ],
+  "tags": [
+    "gcs"
+  ],
+  "feedback": "https://github.com/loopstore/loopstore/issues",
+  "url": "tutorial-cloud-shell.md"
+}
