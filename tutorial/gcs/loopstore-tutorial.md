@@ -1,17 +1,17 @@
 ---
-id: get-started-google-cloud-shell
-summary: In this how-to we'll find out how to set up a development environment for our LoopStore purely in the cloud. You can then follow the tutorial from with the Cloud Shell.
+id: loopstore-tutoriall.md
+summary: LoopStore - Building a store with LoopBack 4 tutorial from https://github.com/loopstore/loopstore
 status: [draft]
 author: LoopStore
 categories: LoopBack,Google Cloud Shell
-tags: cloudant,gcs,google cloud shell,graphql,ibm cloud,loopback,loopstore,node,openapi,rest
-feedback link: https://github.com/loopstore/loopstore-tutorial-v4/issues
+tags: gcs
+feedback link: https://github.com/loopstore/loopstore/issues
 
 ---
 
-# Get Started using Google Cloud Shell
+# Loopstore: Building a store with LoopBack4
 
-[Codelab Feedback](https://github.com/loopstore/loopstore-tutorial-v4/issues)
+[Codelab Feedback](https://github.com/loopstore/loopstore/issues)
 
 
 ## Introduction
@@ -19,7 +19,7 @@ Duration: 01:00
 
 
 
-## Install the LoopBack4 CLI and create our LoopStore app
+## Install the LoopBack4 CLI and create the LoopStore app
 Duration: 02:00
 
 
@@ -135,11 +135,11 @@ Our LoopStore is up and running! (kind of). It's pretty unlikely you won't have 
 *  [LoopBack 4 Issues on GitHub](https://github.com/strongloop/loopback-next/issues)
 
 
-## Deploying our LoopStore to IBM Cloud Free Tier
+## Deploying the LoopStore to IBM Cloud Free Tier
 Duration: 10:00
 
 
-####  [Deploying Loo](http://how-to-labs_deploy_to_ibm_cloud) [pStore to IBM Cloud Free Tier](http://how-to-labs_deploy_to_ibm_cloud)
+####  [Deploying the Loo](http://how-to-labs_deploy_to_ibm_cloud) [pStore to IBM Cloud Free Tier](http://how-to-labs_deploy_to_ibm_cloud)
 
 
 ## Reference and Further Reading
@@ -213,6 +213,13 @@ npm start
 ## LoopBack 4 Best Practices
 
 
+
+
+## Only for Gcs
+
+
+
+    Teachme ~/
 
 
 ## LoopBack 4 Key Concepts
