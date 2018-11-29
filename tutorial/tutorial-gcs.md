@@ -1,5 +1,5 @@
 ---
-id: loopstore-tutoriall.md
+id: tutorial-gcs
 summary: LoopStore - Building a store with LoopBack 4 tutorial from https://github.com/loopstore/loopstore
 status: [draft]
 author: LoopStore
@@ -139,7 +139,10 @@ Our LoopStore is up and running! (kind of). It's pretty unlikely you won't have 
 Duration: 10:00
 
 
-####  [Deploying the Loo](http://how-to-labs_deploy_to_ibm_cloud) [pStore to IBM Cloud Free Tier](http://how-to-labs_deploy_to_ibm_cloud)
+####  [Deploying the LoopStore to IBM Cloud Free Tier](https://console.cloud.google.com/cloudshell/open?tutorial=loopstore/tutorial/howto/deploy-to-ibm-cloud/tutorial-gcs.md)
+
+    teachme ~/loopstore/tutorial/howto/deploy-to-ibm-cloud/tutorial-gcs.md
+
 
 
 ## Reference and Further Reading
@@ -219,7 +222,8 @@ npm start
 
 
 
-    Teachme ~/
+    teachme ~/loopstore/tutorial/howto/deploy-to-ibm-cloud/tutorial-gcs.md
+
 
 
 ## LoopBack 4 Key Concepts
