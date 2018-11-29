@@ -6,8 +6,8 @@ This will clone he repository and run the tutorial in Google Cloud Shell
 
 Enter "teachme ~/loopstore/tutorial.md" at the command line
 
-    teachme ~/loopstore/tutorial.md
+    teachme ~/loopstore/tutorial/gcs/loopstore-tutorial.md
 
 -----
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/loopstore/loopstore&tutorial=tutorial-cloud-shell.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/loopstore/loopstore&tutorial=tutorial/gcs/loopstore-tutorial.md)
