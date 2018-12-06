@@ -64,20 +64,19 @@ For convenience each tutorial step has a branch storing the code state at the be
 
 In other works, we starting from an 'empty' Master branch, Tutorial-Step branches are named from Tutorial-Step_1-End to Tutorial-Step_FINAL-End.
 
-*The branches have been created "backwards" from an 'empty' Master branch*, i.e.: 
+THIS ISN'T TREU ANY MORE - REWORKING.....*The branches have been created "backwards" from an 'empty' Master branch*, i.e.: 
 - Tutorial-Step_FINAL-End is based on Master (containing just the tutorial and information docs)
 - Tutorial-Step_FINAL-Start is based on Tutorial-Step_FINAL-End
 - Tutorial-Step_[penultimate-step-number]-End is based on Tutorial-Step_FINAL-Start
 - Tutorial-Step_[penultimate-step-number]-Start is based on Step_[penultimate-step-number]-End...
 ..and so on, until we reach Tutorial-Step_1-End
-
 *Why?*
 A tutorial branch will always be out of sync with the one it is based on.
 
-However, this setup means that you can look back at changes made in each tutorial code step using the *git diff* command.
+This setup means that you can look back at changes made in each tutorial code step using the *git compare* command.
 
 So, for example, you can see the changes made in the first step of the tutorial (which generates code) if you enter:
-    git diff Tutorial-Step_N_1-End..Master
+    git compare Master...Tutorial-Step_N_1-End
 (provided Master is still empty)
 
 To see what happens in the first step, enter:
