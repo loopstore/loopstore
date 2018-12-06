@@ -8,11 +8,11 @@ This will clone the repository into the directory ~/loopstore and run the tutori
 
 ## If you are already running the tutorial in Cloud Shell, do not use the button below
 
-Enter "teachme ~/loopstore/tutorial-cloudshell/index.md" at the command line
+Enter "teachme ~/loopstore/tutorial-docs/cloudshell/index.md" at the command line
 
-    teachme ~/loopstore/tutorial-cloudshell/index.md
+    teachme ~/loopstore/tutorial-docs/cloudshell/index.md
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/loopstore/loopstore&tutorial=cloudshell/index.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/loopstore/loopstore&tutorial=tutorial-docs/cloudshell/index.md)
 
 ## Tutorial Code
 
@@ -40,7 +40,7 @@ The LoopStore repo has several git branches
 ### Master
 This is where you will store the Master version of the code as you build the LoopStore. 
 
-When you start the tutorial there is no code stored on this branch, just this README and other information in the project root directory ~/loopstore, and the tutorial documents, which stored under the  ~/loopstore/docs directory.
+When you start the tutorial there is no code stored on this branch, just this README and other information in the project root directory ~/loopstore, and the tutorial documents, which stored under the  ~/loopstore/tutorial-docs/ directory.
 
 ### My-Working-Branch
 By default when you check out the code you will be working on the Master branch.
